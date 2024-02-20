@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zay Shop - Product Listing Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <a class="navbar-sm-brand text-light text-decoration-none">UPSLP - </a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" >Semestre Primavera 2024</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://www.facebook.com/upslp/?locale=es_LA" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/upslp_oficial/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/UPSLP_MX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                WEB II
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Parcial1-182033.html">Parcial 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Parcial 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Parcial 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Content -->
+    <div class="container py-5">
+        <div class="row">
+
+            <div class="col-lg-3">
+                <h1 class="h2 pb-4">Contenido de Practicas</h1>
+                <ul class="list-unstyled templatemo-accordion">
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Practica 1
+                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul class="collapse show list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Diagrama del Problema</a></li>
+                            <li><a class="text-decoration-none" href="#">Diagrama E-R(Modelo conceptual)</a></li>
+                            <li><a class="text-decoration-none" href="#">Diagrama Relacional(Modelo lógico)</a></li>                        
+                        </ul>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Practica 2
+                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul id="collapseTwo" class="collapse list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Diagrama del Problema</a></li>
+                            <li><a class="text-decoration-none" href="#">Diagrama E-R(Modelo conceptual)</a></li>
+                            <li><a class="text-decoration-none" href="#">Diagrama Relacional(Modelo lógico)</a></li>
+                            <li><a class="text-decoration-none" href="#">Base de datos(Modelo Físico)</a></li>                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-9">
+                
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <a href="Practica1P1-182033.html"><img class="card-img rounded-0 img-fluid"  src="data:image/png;base64,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" ></a>
+                                
+                            </div>
+                            <div class="card-body">
+                                <a href="Practica1P1-182033.html" class="h3 text-decoration-none">Automoviles<br></a>
+                                
+                                <a href="Practica1P1-182033.html" class="text-center mb-0">Practica 1<br>click aqui</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <a href="Practica2P1-182033.html"><img class="card-img rounded-0 img-fluid" src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f4da.png"  href="Practica2P1-182033.html"></a>
+                                
+                            </div>
+                            <div class="card-body">
+                                <a href="Practica2P1-182033.html" class="h3 text-decoration-none">Biblioteca<br></a>
+                                
+                                
+                                <a href="Practica2P1-182033.html" class="text-center mb-0">Practica 2<br>click aqui</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+        
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End Content -->
+
+    
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">UPSLP</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Urbano Villalón #500, Col. La Ladrillera, San Luis Potosí, S.L.P. México
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:444 870 2100">444 870 2100</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:politecnica@upslp.edu.mx">politecnica@upslp.edu.mx</a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/upslp/?locale=es_LA"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/upslp_oficial/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/UPSLP_MX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+               <!-- <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email address</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                        <div class="input-group-text btn-success text-light">Subscribe</div>
+                    </div>
+                </div>
+            -->
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2024 Castillo Overa Carlos René
+                            | Designed by Castillo Olvera Carlos René</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
